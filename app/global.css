@@ -148,3 +148,18 @@ table {
 .title {
   text-wrap: balance;
 }
+@keyframes colorWave {
+  0%, 100% {
+    color: #D61C4E;
+  }
+  50% {
+    color: #F77E21;
+  }
+  75% {
+    color: #FAC213;
+  }
+}
+
+.color-wave {
+  animation: colorWave 2s infinite;
+}
